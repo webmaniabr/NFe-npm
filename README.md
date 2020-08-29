@@ -11,7 +11,7 @@ Através do emissor de Nota Fiscal da WebmaniaBR®, você conta com a emissão e
 - Repositório NPM: [Visualizar]()
 
 ## Requisitos
-- Contrate um dos planos de Nota Fiscal Eletrônica da WebmaniaBR® a partir de R$29,90/mês: [Assine agora mesmo](https://webmaniabr.com/nota-fiscal-eletronica/).
+- Contrate um dos planos de Nota Fiscal Eletrônica da WebmaniaBR® a partir de R$34,90/mês: [Assine agora mesmo](https://webmaniabr.com/nota-fiscal-eletronica/).
 - Ter o [Node.js](https://www.npmjs.com/get-npm) instalado.
 - Realizar a integração com seu sistema
 
