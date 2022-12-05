@@ -1,17 +1,17 @@
 <p align="center">
-  <img src="https://wmbr.s3.amazonaws.com/img/logo_webmaniabr_github.png">
+  <img src="https://wmbr.s3.amazonaws.com/img/logo_webmaniabr_github2.png">
 </p>
 
 # NFe-npm
 
-Através do emissor de Nota Fiscal da WebmaniaBR®, você conta com a emissão e arquivamento das suas notas fiscais, cálculo automático de impostos, geração do Danfe para impressão e envio automático de e-mails para os clientes. Realize a integração com o seu sistema utilizando a nossa REST API.
+Através do emissor de Nota Fiscal da Webmania®, você conta com a emissão e arquivamento das suas notas fiscais, cálculo automático de impostos, geração do Danfe para impressão e envio automático de e-mails para os clientes. Realize a integração com o seu sistema utilizando a nossa REST API.
 
-- Emissor de Nota Fiscal WebmaniaBR®: [Saiba mais](https://webmaniabr.com/nota-fiscal-eletronica/)
+- Emissor de Nota Fiscal Webmania®: [Saiba mais](https://webmaniabr.com/nota-fiscal-eletronica/)
 - Documentação REST API: [Visualizar](https://webmaniabr.com/docs/rest-api-nfe/)
 - Repositório NPM: [Visualizar]()
 
 ## Requisitos
-- Contrate um dos planos de Nota Fiscal Eletrônica da WebmaniaBR® a partir de R$29,90/mês: [Assine agora mesmo](https://webmaniabr.com/nota-fiscal-eletronica/).
+- Contrate um dos planos de Nota Fiscal Eletrônica da Webmania® (Teste 30 dias grátis): [Assine agora mesmo](https://webmaniabr.com/nota-fiscal-eletronica/).
 - Ter o [Node.js](https://www.npmjs.com/get-npm) instalado.
 - Realizar a integração com seu sistema
 
@@ -26,12 +26,12 @@ Importe o módulo para a parte do seu sistema que deseja tratar esse tipo de inf
 var nfe = require("@webmaniabr/nfe")
 ```
 
-Informe as credenciais de acesso que é disponibilizado após a contratação de um plano da WebmaniaBR®:
+Informe as credenciais de acesso que é disponibilizado após a contratação de um plano da Webmania®:
 ```js
 nfe.credenciais("seu_x_consumer_key", "seu_x_consumer_secret", "seu_x_access_token", "seu_x_access_token_secret")
 ```
 
-Com isso já está apto a utilizar o módulo da WebmaniaBR®, como por exemplo, consultar o status sefaz que retorna um callback com a resposta da API.
+Com isso já está apto a utilizar o módulo da Webmania®, como por exemplo, consultar o status sefaz que retorna um callback com a resposta da API.
 ```js
 nfe.statusSefaz(function(callback){
      console.log(callback.status)
