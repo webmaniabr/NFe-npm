@@ -11,7 +11,7 @@ Através do emissor de Nota Fiscal da Webmania®, você conta com a emissão e a
 - Repositório NPM: [Visualizar]()
 
 ## Requisitos
-- Contrate um dos planos de Nota Fiscal Eletrônica da Webmania® (Teste 30 dias grátis): [Assine agora mesmo](https://webmaniabr.com/nota-fiscal-eletronica/).
+- Contrate um dos planos de Nota Fiscal Eletrônica da Webmania®: [Assine agora mesmo](https://webmaniabr.com/nota-fiscal-eletronica/#plans-section).
 - Ter o [Node.js](https://www.npmjs.com/get-npm) instalado.
 - Realizar a integração com seu sistema
 
